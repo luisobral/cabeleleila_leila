@@ -1,0 +1,39 @@
+
+
+.profile-container .profile-navbar{
+    width: 100%;
+    background: rgb(240, 240, 240);
+
+    padding: 15px 55px 10px;
+}
+
+.profile-container .profile-navbar header{
+    display: flex;
+    align-items: center;
+}
+.profile-container .profile-navbar header img{
+    height: 64px;
+}
+
+.profile-container .profile-navbar header a{
+    width: 260px;
+    margin-left: auto;
+    margin-top: 0;
+}
+.profile-container .profile-navbar header a + a + a{
+    margin-left: 20px;
+}
+
+.profile-container .profile-navbar header button{
+    height: 60px;
+    width: 60px;
+    border-radius: 4px;
+    border: 1px solid #dcdce6;
+    background: transparent;
+    margin-left: 16px;
+    transition: border-color 0.2s;
+}
+
+.profile-container .profile-navbar header button:hover{
+    border-color: #999;
+}
